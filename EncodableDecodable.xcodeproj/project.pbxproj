@@ -12,6 +12,8 @@
 		DD084BDC21BEDECB002D219C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD084BDA21BEDECB002D219C /* Main.storyboard */; };
 		DD084BDE21BEDEDA002D219C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD084BDD21BEDEDA002D219C /* Assets.xcassets */; };
 		DD084BE121BEDEDA002D219C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD084BDF21BEDEDA002D219C /* LaunchScreen.storyboard */; };
+		DD084BEB21BEFB42002D219C /* Postt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD084BEA21BEFB42002D219C /* Postt.swift */; };
+		DD1FA67321BFB8320083F562 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1FA67221BFB8320083F562 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		DD084BDD21BEDEDA002D219C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD084BE021BEDEDA002D219C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD084BE221BEDEDA002D219C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD084BEA21BEFB42002D219C /* Postt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postt.swift; sourceTree = "<group>"; };
+		DD1FA67221BFB8320083F562 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				DD084BD621BEDECB002D219C /* AppDelegate.swift */,
+				DD084BEA21BEFB42002D219C /* Postt.swift */,
 				DD084BD821BEDECB002D219C /* ViewController.swift */,
 				DD084BDA21BEDECB002D219C /* Main.storyboard */,
 				DD084BDD21BEDEDA002D219C /* Assets.xcassets */,
 				DD084BDF21BEDEDA002D219C /* LaunchScreen.storyboard */,
 				DD084BE221BEDEDA002D219C /* Info.plist */,
+				DD1FA67221BFB8320083F562 /* User.swift */,
 			);
 			path = EncodableDecodable;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD084BD921BEDECB002D219C /* ViewController.swift in Sources */,
+				DD1FA67321BFB8320083F562 /* User.swift in Sources */,
+				DD084BEB21BEFB42002D219C /* Postt.swift in Sources */,
 				DD084BD721BEDECB002D219C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
